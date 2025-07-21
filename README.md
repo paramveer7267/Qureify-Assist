@@ -29,20 +29,22 @@
 
 ## 📁 Folder Structure
 
+```
 qureify-assist/
 ├── public/
-│ └── assets/ # Images and logos
+│   └── assets/              # Images and logos
 ├── src/
-│ ├── components/ # UI components (e.g., Hero, Features, ContactForm)
-│ ├── constants/ # Static data (features list, testimonials, steps)
-│ ├── App.jsx # Main App component
-│ └── main.jsx # Entry point
-├── index.html # Root HTML file
-├── tailwind.config.js # Tailwind CSS config
-├── postcss.config.js # PostCSS setup
-├── vite.config.js # Vite config
-├── package.json # Project metadata and scripts
+│   ├── components/          # UI components (e.g., Hero, Features, ContactForm)
+│   ├── constants/           # Static data (features list, testimonials, steps)
+│   ├── App.jsx              # Main App component
+│   └── main.jsx             # Entry point
+├── index.html               # Root HTML file
+├── tailwind.config.js       # Tailwind CSS config
+├── postcss.config.js        # PostCSS setup
+├── vite.config.js           # Vite config
+├── package.json             # Project metadata and scripts
 └── README.md
+```
 
 ---
 
@@ -60,3 +62,47 @@ npm install
 
 # 3. Start development server
 npm run dev
+```
+
+> The site will be available at `http://localhost:5173`
+
+---
+
+## 🧾 Available Scripts
+
+```bash
+npm run dev        # Start local dev server
+npm run build      # Build production files
+npm run preview    # Preview production build locally
+```
+
+---
+
+## 📦 Deployment
+
+This project is deployed with [Vercel](https://vercel.com/).  
+You can connect the GitHub repo to Vercel and it will handle builds automatically on every push.
+
+To build manually:
+
+```bash
+npm run build
+```
+
+Then deploy the contents of the `dist/` folder.
+
+---
+
+## 📬 Contact / Support
+
+For issues or feature suggestions, please open an issue in this repository.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+> Made with ❤️ for healthcare innovation.
