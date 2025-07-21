@@ -28,12 +28,12 @@ const words = [
   { text: "Concepts", imgPath: "/images/concepts.svg" },
 ];
 
-const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
-];
+// const counterItems = [
+//   { value: 15, suffix: "+", label: "Years of Experience" },
+//   { value: 200, suffix: "+", label: "Satisfied Clients" },
+//   { value: 108, suffix: "+", label: "Completed Projects" },
+//   { value: 90, suffix: "%", label: "Client Retention Rate" },
+// ];
 
 const steps = [
   {
@@ -148,12 +148,4 @@ const socialImgs = [
   },
 ];
 
-export {
-  words,
-  steps,
-  abilities,
-  counterItems,
-  testimonials,
-  socialImgs,
-  navLinks,
-};
+export { words, steps, abilities, testimonials, socialImgs, navLinks };
