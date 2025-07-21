@@ -32,7 +32,7 @@
 ```
 qureify-assist/
 ├── public/
-│   └── assets/              # Images and logos
+│   └── images/              # Images and logos
 ├── src/
 │   ├── components/          # UI components (e.g., Hero, Features, ContactForm)
 │   ├── constants/           # Static data (features list, testimonials, steps)
