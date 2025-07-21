@@ -33,7 +33,7 @@ const Footer = () => {
     <footer className="bg-gray-950 text-white py-10 px-5 mt-16">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Company Info */}
-        <div>
+        <div className="flex flex-col">
           <h2 className="text-xl font-bold mb-4">Qureify</h2>
           <p className="text-gray-400 text-sm">
             Empowering clinics with AI-driven triage and smarter healthcare
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
 
         {/* Navigation */}
-        <div>
+        <div className="flex flex-col  md:items-center">
           <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2 text-sm text-gray-300">
             <li>
@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
 
         {/* Resources */}
-        <div>
+        <div className="flex flex-col md:items-center">
           <h3 className="text-lg font-semibold mb-4">Resources</h3>
           <ul className="space-y-2 text-sm text-gray-300">
             <li>
