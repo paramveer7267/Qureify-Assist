@@ -15,15 +15,15 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative overflow-hidden">
-      <div className="absolute top-0 left-0 z-10">
-        <img src="/images/bg2.jpg" alt="" className="opacity-30 blur-xs"/>
+      <div className="hidden md:block absolute top-0 left-0 z-10">
+        <img src="/images/bg2.jpg" alt="" className="opacity-20" />
       </div>
 
       <div className="hero-layout">
         {/* LEFT: Hero Content */}
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
-            <div className="hero-text">
+            <div className="hero-text mt-30">
               <h1>
                 Qureify Assist
                 <span className="slide">
@@ -31,12 +31,12 @@ const Hero = () => {
                     {words.map((word, index) => (
                       <span
                         key={index}
-                        className="flex items-center md:gap-3 gap-1 pb-2"
+                        className="flex items-center  md:gap-3 gap-1 pb-2"
                       >
                         <img
                           src={word.imgPath}
                           alt="person"
-                          className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
+                          className="xl:size-12 md:size-10 size-5 md:p-2 p-1 rounded-full bg-white-50"
                         />
                         <span>{word.text}</span>
                       </span>
@@ -59,7 +59,9 @@ const Hero = () => {
         </header>
 
         {/* RIGHT */}
-       
+      </div>
+      <div className="block md:hidden absolute top-20 left-0 z-10">
+        <img src="/images/bg4.png" alt="" className="opacity-20 " />
       </div>
 
       {/* <AnimatedCounter /> */}

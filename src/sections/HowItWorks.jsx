@@ -15,7 +15,7 @@ const HowItWorks = () => {
   return (
     <section
       id="how-it-works"
-      className="py-16 px-6 md:px-12 "
+      className="py-16 px-6 md:px-12 md:mt-16"
     >
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2

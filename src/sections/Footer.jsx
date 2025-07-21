@@ -99,7 +99,7 @@ const Footer = () => {
         <div className="flex md:flex-col gap-3 items-center">
           {socialImgs.map((socialImg, index) => (
             <div key={index} className="icon">
-              <img src={socialImg.imgPath} alt="social icon" className="size-6"/>
+              <img src={socialImg.imgPath} alt="social icon" className="size-6 hover:scale-115 transition-transform cursor-pointer"/>
             </div>
           ))}
         </div>

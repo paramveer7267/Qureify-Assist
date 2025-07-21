@@ -1,7 +1,7 @@
 import { abilities } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 const Features = () => (
-  <div id="features" className="w-full padding-x-lg">
+  <div id="features" className="w-full padding-x-lg mt-16">
     <TitleHeader title="Features" sub="⚡ Our Highlights" />
     <div className="mx-auto mt-16 grid-3-cols">
       {abilities.map(({ imgPath, title, desc }) => (
