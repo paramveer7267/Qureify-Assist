@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Hero from "./sections/Hero";
 import HowItWorks from "./sections/HowItWorks";
 import Features from "./sections/Features";
