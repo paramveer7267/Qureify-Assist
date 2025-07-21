@@ -36,7 +36,7 @@ qureify-assist/
 ├── src/
 │   ├── components/          # UI components (e.g., Hero, Features, ContactForm)
 │   ├── constants/           # Static data (features list, testimonials, steps)
-│   ├── section/             # Contains differents sections of the page
+│   ├── sections/             # Contains differents sections of the page
 │   ├── App.jsx              # Main App component
 │   └── main.jsx             # Entry point
 ├── index.html               # Root HTML file
